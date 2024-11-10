@@ -6,12 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="a90c2d0b-55bd-403f-993a-301fa25009c6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/zipcode/PayDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/zipcode/PayDay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rocks/zipcode/PayDayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rocks/zipcode/PayDayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,28 +47,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.PayDay.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PayDayTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PayDayTest.pay.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PayDayTest.test1grossPay.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PayDayTest.test1pay.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PayDayTest.test2grossPay.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.PayDay.executor": "Run",
+    "JUnit.PayDayTest.executor": "Run",
+    "JUnit.PayDayTest.pay.executor": "Run",
+    "JUnit.PayDayTest.test1grossPay.executor": "Run",
+    "JUnit.PayDayTest.test1pay.executor": "Run",
+    "JUnit.PayDayTest.test2grossPay.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.PayDayTest.executor": "Run",
+    "TestNG.PayDayTest.test1grossPay.executor": "Run",
+    "TestNG.PayDayTest.test1pay.executor": "Debug",
+    "TestNG.PayDayTest.test2formatDollars.executor": "Run",
+    "TestNG.PayDayTest.test2grossPay.executor": "Run",
+    "TestNG.PayDayTest.test2netPay.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/sgreloch/Desktop/Projects/PayDay/pom.xml",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.testRunning"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="rocks.zipcode" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PayDayTest">
+  <component name="RunManager" selected="TestNG.PayDayTest">
     <configuration name="PayDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="liberica-full-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -79,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PayDayTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PayDay" />
       <extension name="coverage">
         <pattern>
@@ -87,17 +100,16 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="liberica-full-17" />
       <option name="PACKAGE_NAME" value="rocks.zipcode" />
       <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayDayTest.test1grossPay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PayDayTest.test1grossPay" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PayDay" />
       <extension name="coverage">
         <pattern>
@@ -108,12 +120,14 @@
       <option name="PACKAGE_NAME" value="rocks.zipcode" />
       <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
       <option name="METHOD_NAME" value="test1grossPay" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayDayTest.test1pay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PayDayTest.test2formatDollars" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PayDay" />
       <extension name="coverage">
         <pattern>
@@ -123,13 +137,15 @@
       </extension>
       <option name="PACKAGE_NAME" value="rocks.zipcode" />
       <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
-      <option name="METHOD_NAME" value="test1pay" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" value="test2formatDollars" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayDayTest.test2grossPay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PayDayTest.test2grossPay" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PayDay" />
       <extension name="coverage">
         <pattern>
@@ -140,25 +156,27 @@
       <option name="PACKAGE_NAME" value="rocks.zipcode" />
       <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
       <option name="METHOD_NAME" value="test2grossPay" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.PayDay" />
-      <item itemvalue="JUnit.PayDayTest" />
-      <item itemvalue="JUnit.PayDayTest.test1grossPay" />
-      <item itemvalue="JUnit.PayDayTest.test1pay" />
-      <item itemvalue="JUnit.PayDayTest.test2grossPay" />
+      <item itemvalue="TestNG.PayDayTest.test2formatDollars" />
+      <item itemvalue="TestNG.PayDayTest.test2grossPay" />
+      <item itemvalue="TestNG.PayDayTest.test1grossPay" />
+      <item itemvalue="TestNG.PayDayTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PayDayTest" />
-        <item itemvalue="JUnit.PayDayTest.test2grossPay" />
-        <item itemvalue="JUnit.PayDayTest.test1grossPay" />
+        <item itemvalue="TestNG.PayDayTest" />
+        <item itemvalue="TestNG.PayDayTest.test2formatDollars" />
         <item itemvalue="Application.PayDay" />
-        <item itemvalue="JUnit.PayDayTest.test1pay" />
+        <item itemvalue="TestNG.PayDayTest.test2grossPay" />
+        <item itemvalue="TestNG.PayDayTest.test1grossPay" />
       </list>
     </recent_temporary>
   </component>
@@ -186,5 +204,50 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/rocks/zipcode/PayDayTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/rocks/zipcode/PayDayTest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/rocks/zipcode/PayDayTest.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/rocks/zipcode/PayDayTest.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/rocks/zipcode/PayDayTest.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/rocks/zipcode/PayDayTest.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/rocks/zipcode/PayDayTest.java</url>
+          <line>9</line>
+          <properties class="rocks.zipcode.PayDayTest" method="test1grossPay">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

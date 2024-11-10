@@ -39,31 +39,48 @@ public class PayDay {
             outputReport.append("\n");
         }
 
-        System.out.println("Email this to the Big Boss:\n\n **PayDay Report**\n\n"+outputReport.toString());
+        System.out.println("Email this to the Big Boss:\n\n **PayDay Report**\n\n" + outputReport.toString());
     }
 
 
     /**
      * Takes four parameters:
-     *   "Kris", 21.5, 10.0, 0.05
+     * "Kris", 21.5, 10.0, 0.05
+     * <p>
+     * Notice the data type of each of the four.
+     * return a string which has the name, the grossPay, deduction, netPay as a
+     * formatted string like this one:
      *
-     *   Notice the data type of each of the four.
-     *   return a string which has the name, the grossPay, deduction, netPay as a
-     *   formatted string like this one:
      * @return a string of the form "Kris 215.00 10.75 204.25”
      */
     public String pay(String name, double hourlyRate, double hoursWorked, double taxRate) {
-        return null;
+        //return null;
+        double gp = grossPay(hourlyRate, hoursWorked);
+        double tax = deductTax(gp, taxRate);
+        double np = netPay(gp, tax);
+
+        return String.format("%s %f %f %f",name,gp,tax,np);
+
     }
 
+
     public double grossPay(double rate, double hours) {
-        return -1.0;
+        //return -1.0;
+
+        double grossPay = rate * hours;
+        return grossPay;
     }
+
+
     public double deductTax(double gross, double taxRate) {
-        return -1.0;
+        //return -1.0;
+       double deduction = gross * taxRate;
+       return deduction;
     }
     public double netPay(double gross, double deduction) {
-        return -1.0;
+        //return -1.0;
+        double netPay = gross - deduction;
+        return netPay;
     }
 
     /*
